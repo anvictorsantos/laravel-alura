@@ -14,6 +14,7 @@
     * composer install
     * cp .env.example .env
     * php artisan key:generate
+    * deixar apenas a conexao com o banco: DB_CONNECTION=sqlite no .env
     * touch database/database.sqlite
     * php artisan migrate
 ```
